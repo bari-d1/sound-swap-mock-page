@@ -1,0 +1,92 @@
+<!-- My First Webpage -->
+<!DOCTYPE html>
+<!-- Defines the language of the text content in the web page -->
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Radio+Canada&family=Roboto&family=Zen+Dots&display=swap" rel="stylesheet">
+		<!-- Defines the character set used in the web page -->
+		<meta charset="UTF-8">
+		<script src="https://kit.fontawesome.com/9fc40e56a9.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+	<div class="container">
+		<header class="grid-container-header">
+			<div class="grid-item-header" id="searcharea">
+				<input type="search" placeholder="Search..." id="searchbar">
+			</div>	
+			<div class="grid-item-header" id="appname">
+				<h1>SoundSwap</h1>
+			</div>
+			<div class="dropdown grid-item-header">
+				<button class="dropbtn">Username</button>
+				<div class="dropdown-content">
+					<a href="#">Link Spotify</a>
+					<a href="#">Link Soundcloud</a>
+					<a href="#">Link Deezer</a>
+				</div>
+			</div>
+		</header>
+		<aside>
+			<button id="addplaylist">+ Add playlist</button>
+			<br>
+			<input class="playlistradio" type="radio" name = "playlists" value="Playlist1">
+			<label class="playlistlabel" for="Playlist1">Playlist 1</label>
+			<br>
+			<input class="playlistradio" type="radio" name = "playlists" value="Playlist2">
+			<label class="playlistlabel" for="Playlist2">Playlist 2</label>
+			<br>
+			<input class="playlistradio" type="radio" name = "playlists" value="Playlist3">
+			<label class="playlistlabel" for="Playlist3">Playlist 3</label>
+			<br>
+			<button id="shareplaylist">Share Playlist</button>
+		</aside>
+		<main>
+			<div id="showplaylist">
+			<i class="fa-regular fa-circle-play fa-4x" style="float: left; margin-right: 5%;"></i>
+			<h1 style="margin-top: 25px; font-size: 60px">Playlist 1</h1>
+			<table id="playlisttable">
+				<tr>
+					<th>#</th>
+    				<th>Title</th>
+    				<th>Artist</th>
+    				<th>Album</th>
+    				<th>Platform</th>
+    				<th>Duration</th>
+    				<th>. . .</th>
+  				</tr>
+  				<tr>
+    				<td>1</td>
+    				<td>Song 1</td>
+    				<td>Artist 1</td>
+    				<td>. . .</td>
+    				<td>Spotify</td>
+  				</tr>
+  				<tr>
+    				<td>2</td>
+    				<td>Song 2</td>
+    				<td>Artist 2</td>
+    				<td>. . .</td>
+    				<td>Deezer</td>
+  				</tr>
+  				<tr>
+  					<td>.</td>
+  				</tr>
+  				<tr>
+  					<td>.</td>
+  				</tr>
+			</table>
+			</div>
+		</main>
+		<footer>
+			<div class="mediacontrols">
+			<p>Song name - Artist - Album - Platform<p>
+			<img src="mediacontrols.png" height="50">
+			<div>
+		</footer>
+	</div>
+		
+	</body>
+</html>	

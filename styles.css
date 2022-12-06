@@ -1,0 +1,153 @@
+*{
+	box-sizing: border-box;
+}
+html, body {
+	font-family: verdana, sans-serif;
+	height:100%;
+	margin:0;
+	padding:0;
+	/* min-width: 700px;
+	max-width: 1600px; */
+	background: linear-gradient(to right, rgb(255, 0, 208), rgb(255, 0, 0));;
+}
+
+header{
+height:20vh;
+/* background: radial-gradient(circle at bottom, #6f4e7a, #292d5b); */
+background: linear-gradient(to right, rgb(255, 0, 208), rgb(255, 0, 0));;
+color:white;
+text-align: center;
+/* border-top: solid 3px black; */
+}
+#appname{
+	font-size: 1em;
+}
+aside{
+float:left;
+width:250px;
+background-color:black;
+text-align:center;
+border-top: 1px solid white;
+border-right: 1px solid white;
+height:60vh;
+line-height:35px;
+font-size:25px;
+}
+
+main{
+padding-left:300px;
+height:6vh;
+background-color: #1C1C1C;
+border-top: 1px solid white;
+color: whitesmoke;
+}
+
+footer{
+height:20vh;
+width:100%;
+text-align:center;
+/* position: fixed; */
+background-color: white;
+border: grey 5px;
+}
+footer img{
+	width: 100%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  margin-top: 15px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.playlistlabel {
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: whitesmoke;
+}
+
+.playlistlabel:hover {
+	font-weight:bold;
+}
+
+.playlistradio:checked+label{ 
+	font-weight: bold; 
+} 
+
+td, th {
+	padding: 5px;
+	font-size: 30px;
+}
+
+.dropdown{
+	float:right;
+	margin-top:15px;
+	margin-right:80px;
+}
+
+.mediacontrols {
+	font-size: 25px;
+}
+
+.mediacontrols p {
+	margin:10px;
+}
+
+#searcharea {
+	float:left;
+	padding:30px;
+}
+
+
+#searchbar {
+	padding:15px;
+	font-size:1em;
+}
+
+#addplaylist {
+	margin:20px;
+	font-size: 25px;
+}
+
+#shareplaylist {
+	margin-top:20px;
+	font-size: 25px;
+}
